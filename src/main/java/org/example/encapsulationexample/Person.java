@@ -12,12 +12,12 @@ public class Person {
     }
 
 
-    public boolean setAge(int age) {
+    public void setAge(int age) {
         if(age>=0  && age<=150){
             this.age = age;
-            return true;
+
         }else{
-            return false;
+            throw new IllegalArgumentException("age cannot be less then zero");
         }
 
     }
