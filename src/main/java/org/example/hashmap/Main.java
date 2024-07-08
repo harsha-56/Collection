@@ -1,9 +1,9 @@
-package org.example;
+package org.example.hashmap;
 
 import java.util.*;
 
-import static org.example.Student.Students;
-import static org.example.Student.loadStudents;
+import static org.example.hashmap.Student.Students;
+import static org.example.hashmap.Student.loadStudents;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
